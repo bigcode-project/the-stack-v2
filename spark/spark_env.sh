@@ -76,6 +76,8 @@ spark.driver.maxResultSize                   8192m
 spark.driver.memory                          ${SPARK_DRIVER_MEMORY}m
 spark.executor.memory                        ${MASTER_COMPUTE_MEMORY}m
 spark.network.timeout                        1200
+spark.port.maxRetries                        100
+spark.task.maxFailures                       100
 EOF
     sbcast "${SPARK_DEFAULTS}.tmp" "${SPARK_DEFAULTS}"
 

@@ -94,13 +94,13 @@ if __name__ == "__main__":
     )
     args.add_argument(
         "--cache_path",
-        default="s3a://bigcode-datasets-us-east-1/swh_2023_09_06/file_paths_cache",
+        default="s3a://bigcode-datasets-us-east-1/the_stack/swh_2023_09_06/file_paths_cache",
         type=str,
         help="S3 path to the directory paths cache",
     )
     args.add_argument(
         "--output_path",
-        default="s3a://bigcode-datasets/swh_2023_09_06/file_paths",
+        default="s3a://bigcode-datasets-us-east-1/the_stack/swh_2023_09_06/file_paths",
         type=str,
         help="S3 path to save the final file paths",
     )
