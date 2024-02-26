@@ -14,7 +14,7 @@ All configuration is in the `cfg.py`. Configs needed to change would be:
 ## 0_get_gharchive_events.py
 Downloads evnets from the GHArchive. Done on one thread and with a delay in order to not overvelm the server.
 
-## 2_parse_pull_request_events.ipynb
+## 1_parse_issue_and_pr_events.ipynb
 Extracts Issues and PRs information from the events, groups events by Issue or PR id, combines them into Issues or PR and splits to Issue and PRs.
 - `issues` dataset is stored by default in `root_path/issues_prs_grouped`
 - `pull requests` are stored by default in `root_path/pr_grouped` for further processing
