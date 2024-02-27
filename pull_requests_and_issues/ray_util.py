@@ -1,4 +1,5 @@
 import ray
+from tqdm.auto import tqdm
 
 def ray_map(func, els, **kwargs):
     res = []
