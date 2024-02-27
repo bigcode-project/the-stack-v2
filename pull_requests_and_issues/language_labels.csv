@@ -1,0 +1,1296 @@
+language,extension,include_final
+Java,java,TRUE
+Text,txt,TRUE
+JSON,json,TRUE
+JSON,geojson,TRUE
+JavaScript,js,TRUE
+JavaScript,jsx,TRUE
+HTML,html,TRUE
+HTML,htm,TRUE
+HTML,xhtml,TRUE
+Markdown,md,TRUE
+Markdown,markdown,TRUE
+CSV,csv,FALSE
+XML,xml,TRUE
+XML,hocr,TRUE
+XML,xaml,TRUE
+XML,,TRUE
+XML,storyboard,TRUE
+XML,glif,TRUE
+XML,csproj,TRUE
+XML,fxml,TRUE
+XML,xib,TRUE
+XML,resx,FALSE
+XML,pt,FALSE
+XML,rss,FALSE
+XML,xsd,TRUE
+XML,config,TRUE
+XML,kml,FALSE
+Python,py,TRUE
+Python,,TRUE
+C#,cs,TRUE
+PHP,php,TRUE
+PHP,ctp,TRUE
+C++,cpp,TRUE
+C++,h,TRUE
+C++,hpp,TRUE
+C++,cc,TRUE
+C++,ino,TRUE
+C++,,FALSE
+C++,cxx,TRUE
+CSS,css,TRUE
+TypeScript,ts,TRUE
+C,c,TRUE
+C,h,TRUE
+Ruby,rb,TRUE
+Ruby,,TRUE
+Ruby,jbuilder,TRUE
+Ruby,rake,TRUE
+Ruby,gemspec,TRUE
+YAML,yml,TRUE
+YAML,yaml,TRUE
+YAML,lock,TRUE
+SVG,svg,FALSE
+Unity3D Asset,meta,FALSE
+Unity3D Asset,prefab,FALSE
+Unity3D Asset,unity,FALSE
+Unity3D Asset,asset,FALSE
+Unity3D Asset,anim,FALSE
+Unity3D Asset,mat,FALSE
+Objective-C,h,TRUE
+Objective-C,m,TRUE
+Objective-C,,TRUE
+SCSS,scss,TRUE
+Shell,sh,TRUE
+Shell,,TRUE
+Shell,env,FALSE
+Shell,bash,TRUE
+Shell,example,TRUE
+Shell,zsh,TRUE
+Go,go,TRUE
+Kotlin,kt,TRUE
+Kotlin,kts,TRUE
+Jupyter Notebook,ipynb,TRUE
+Vue,vue,TRUE
+Swift,swift,TRUE
+HTML+ERB,erb,TRUE
+HTML+ERB,rhtml,TRUE
+TSX,tsx,TRUE
+Ignore List,gitignore,FALSE
+Ignore List,npmignore,FALSE
+Ignore List,dockerignore,FALSE
+Ignore List,eslintignore,FALSE
+Java Server Pages,jsp,TRUE
+Java Server Pages,tag,TRUE
+Java Server Pages,,TRUE
+SQL,sql,TRUE
+SQL,tab,FALSE
+INI,properties,TRUE
+INI,ini,TRUE
+INI,prefs,FALSE
+INI,cfg,FALSE
+INI,url,FALSE
+R,r,TRUE
+R,rd,TRUE
+Blade,php,TRUE
+MATLAB,m,TRUE
+Scala,scala,TRUE
+Scala,sbt,TRUE
+Scala,sc,FALSE
+Makefile,,TRUE
+Makefile,d,FALSE
+Makefile,mk,TRUE
+Makefile,make,FALSE
+Makefile,am,TRUE
+Makefile,mak,TRUE
+Dart,dart,TRUE
+Java Properties,properties,FALSE
+HTML+Razor,cshtml,TRUE
+HTML+Razor,razor,TRUE
+TeX,tex,TRUE
+TeX,aux,FALSE
+TeX,toc,FALSE
+TeX,sty,TRUE
+TeX,ins,TRUE
+TeX,ltx,FALSE
+TeX,cls,TRUE
+Lua,lua,TRUE
+Rust,rs,TRUE
+TSV,tsv,FALSE
+Smali,smali,TRUE
+Dockerfile,,TRUE
+Dockerfile,dockerfile,TRUE
+reStructuredText,rst,TRUE
+reStructuredText,txt,TRUE
+reStructuredText,rest,FALSE
+Hack,php,TRUE
+Hack,hack,TRUE
+CMake,txt,TRUE
+CMake,cmake,TRUE
+CMake,in,TRUE
+Less,less,TRUE
+Microsoft Visual Studio Solution,sln,TRUE
+WebVTT,vtt,FALSE
+Gradle,gradle,TRUE
+Pug,pug,TRUE
+Pug,jade,TRUE
+EJS,ejs,TRUE
+Twig,twig,TRUE
+ASP.NET,aspx,TRUE
+ASP.NET,ascx,TRUE
+ASP.NET,asax,TRUE
+ASP.NET,ashx,TRUE
+ASP.NET,asmx,TRUE
+Haskell,hs,TRUE
+Haskell,,TRUE
+Diff,patch,FALSE
+Diff,diff,FALSE
+Gherkin,story,TRUE
+Gherkin,feature,TRUE
+Handlebars,hbs,TRUE
+Handlebars,handlebars,TRUE
+TSQL,sql,TRUE
+Wikitext,wikitext,FALSE
+Wikitext,wiki,TRUE
+Wikitext,mediawiki,TRUE
+Perl,pl,TRUE
+Perl,pm,TRUE
+Perl,t,TRUE
+Perl,,TRUE
+Perl,cgi,TRUE
+Perl,al,FALSE
+Perl,ph,FALSE
+Batchfile,bat,TRUE
+Batchfile,cmd,TRUE
+Groovy,groovy,TRUE
+Groovy,,TRUE
+Public Key,pub,FALSE
+Public Key,asc,FALSE
+Visual Basic .NET,vb,TRUE
+Visual Basic .NET,vbhtml,TRUE
+Haml,haml,TRUE
+CoffeeScript,coffee,TRUE
+CoffeeScript,cjsx,TRUE
+Smalltalk,st,TRUE
+Smalltalk,cs,TRUE
+ActionScript,as,TRUE
+RMarkdown,rmd,TRUE
+RMarkdown,qmd,TRUE
+Wavefront Object,obj,FALSE
+Pascal,pas,TRUE
+Pascal,dfm,TRUE
+Pascal,pp,FALSE
+Pascal,dpr,FALSE
+Pascal,inc,FALSE
+Pascal,,FALSE
+Pascal,lpr,TRUE
+PostScript,eps,FALSE
+PostScript,ps,FALSE
+Roff,1,TRUE
+Roff,3,TRUE
+Roff,2,FALSE
+Roff,5,FALSE
+Roff,4,TRUE
+Roff,,FALSE
+Roff,8,FALSE
+Roff,6,TRUE
+Roff,7,FALSE
+Roff,9,FALSE
+Roff,1d,FALSE
+Roff,in,FALSE
+Roff,me,TRUE
+Roff,man,TRUE
+Roff,n,TRUE
+Roff,l,TRUE
+Org,org,TRUE
+Gerber Image,sol,FALSE
+Gerber Image,gbr,FALSE
+Gerber Image,cmp,FALSE
+Gerber Image,gtl,FALSE
+Gerber Image,gbl,FALSE
+Gerber Image,gto,FALSE
+Gerber Image,gbs,FALSE
+Gerber Image,gts,FALSE
+Gerber Image,gbo,FALSE
+Gerber Image,gtp,FALSE
+Elixir,ex,TRUE
+Elixir,exs,TRUE
+Elixir,lock,FALSE
+Checksums,md5,FALSE
+Checksums,sha1,FALSE
+Checksums,sha256,FALSE
+Checksums,sha512,FALSE
+TOML,toml,TRUE
+TOML,lock,FALSE
+TOML,,TRUE
+Assembly,asm,TRUE
+Assembly,inc,TRUE
+Assembly,i,TRUE
+Assembly,nasm,TRUE
+Smarty,tpl,TRUE
+Sass,sass,TRUE
+Maven POM,xml,TRUE
+HCL,tf,TRUE
+HCL,tfvars,TRUE
+HCL,hcl,TRUE
+Fortran Free Form,f90,TRUE
+Fortran Free Form,f03,TRUE
+Fortran Free Form,f08,TRUE
+Fortran Free Form,f95,TRUE
+PowerShell,ps1,TRUE
+PowerShell,psm1,TRUE
+PowerShell,psd1,TRUE
+Pickle,pkl,FALSE
+Verilog,v,TRUE
+Processing,pde,TRUE
+Vim Script,vim,TRUE
+Vim Script,vimrc,TRUE
+Vim Script,,TRUE
+Vim Script,gvimrc,TRUE
+mIRC Script,mrc,FALSE
+GLSL,glsl,TRUE
+GLSL,frag,TRUE
+GLSL,vert,TRUE
+GLSL,shader,TRUE
+GLSL,fs,TRUE
+GLSL,fsh,TRUE
+GLSL,fp,TRUE
+GLSL,geo,FALSE
+GLSL,vsh,TRUE
+GLSL,geom,TRUE
+Fortran,f,TRUE
+Fortran,for,TRUE
+Fortran,,TRUE
+Fortran,fpp,TRUE
+F#,fs,TRUE
+F#,fsx,TRUE
+F#,fsi,TRUE
+Roff Manpage,1,TRUE
+Roff Manpage,3,TRUE
+Roff Manpage,9,FALSE
+Roff Manpage,2,FALSE
+Roff Manpage,4,FALSE
+Roff Manpage,5,TRUE
+Roff Manpage,8,TRUE
+Roff Manpage,7,TRUE
+Roff Manpage,6,FALSE
+Roff Manpage,1d,FALSE
+Roff Manpage,man,FALSE
+Roff Manpage,,FALSE
+Roff Manpage,3d,FALSE
+Fluent,ftl,TRUE
+Fluent,,TRUE
+Game Maker Language,gml,TRUE
+Unix Assembly,s,TRUE
+Gettext Catalog,po,TRUE
+Gettext Catalog,pot,FALSE
+HTML+PHP,phtml,TRUE
+VHDL,vhd,TRUE
+VHDL,vhdl,TRUE
+VHDL,vho,TRUE
+Julia,jl,TRUE
+Julia,raw,TRUE
+Motorola 68K Assembly,s,TRUE
+Motorola 68K Assembly,asm,TRUE
+Motorola 68K Assembly,inc,TRUE
+Motorola 68K Assembly,i,TRUE
+Motorola 68K Assembly,x68,TRUE
+Graphviz (DOT),dot,TRUE
+Graphviz (DOT),gv,TRUE
+Scheme,scm,TRUE
+Scheme,sld,TRUE
+Scheme,ss,TRUE
+Scheme,sls,TRUE
+Scheme,sch,TRUE
+Scheme,sps,TRUE
+Apex,cls,TRUE
+OpenEdge ABL,p,FALSE
+OpenEdge ABL,w,TRUE
+OpenEdge ABL,cls,TRUE
+Go Module,mod,TRUE
+AsciiDoc,adoc,TRUE
+AsciiDoc,asciidoc,TRUE
+AsciiDoc,asc,FALSE
+Stylus,styl,TRUE
+CoNLL-U,conll,FALSE
+CoNLL-U,conllu,FALSE
+Clojure,clj,TRUE
+Clojure,cljs,TRUE
+Clojure,cljc,TRUE
+Clojure,bb,TRUE
+Clojure,boot,TRUE
+Slim,slim,TRUE
+Haxe,hx,TRUE
+Emacs Lisp,el,TRUE
+Emacs Lisp,emacs,TRUE
+Emacs Lisp,,TRUE
+OCaml,ml,TRUE
+OCaml,mli,TRUE
+OCaml,mly,TRUE
+OCaml,mll,TRUE
+SubRip Text,srt,FALSE
+Git Config,gitmodules,FALSE
+Git Config,gitconfig,TRUE
+AMPL,mod,TRUE
+AMPL,ampl,TRUE
+Jest Snapshot,snap,FALSE
+Common Lisp,lisp,TRUE
+Common Lisp,lsp,TRUE
+Common Lisp,asd,TRUE
+Common Lisp,l,FALSE
+Common Lisp,cl,TRUE
+Common Lisp,sexp,FALSE
+Common Lisp,gc,TRUE
+Common Lisp,,TRUE
+BibTeX,bib,TRUE
+Rich Text Format,rtf,FALSE
+Erlang,erl,TRUE
+Erlang,hrl,TRUE
+Erlang,config,TRUE
+Erlang,src,TRUE
+Erlang,,TRUE
+Erlang,lock,TRUE
+GDScript,gd,TRUE
+Jinja,j2,TRUE
+Jinja,jinja2,TRUE
+Jinja,jinja,TRUE
+Jinja,html,TRUE
+JSON with Comments,,TRUE
+JSON with Comments,json,TRUE
+JSON with Comments,babelrc,TRUE
+JSON with Comments,jshintrc,TRUE
+JSON with Comments,jsonc,TRUE
+JSON with Comments,jscsrc,TRUE
+Puppet,pp,TRUE
+Puppet,,FALSE
+XML Property List,plist,FALSE
+XML Property List,tmsnippet,FALSE
+XML Property List,tmlanguage,FALSE
+XML Property List,tmtheme,FALSE
+XML Property List,tmcommand,FALSE
+JAR Manifest,mf,FALSE
+D,d,TRUE
+D,di,TRUE
+VBA,frm,TRUE
+VBA,bas,TRUE
+VBA,cls,TRUE
+VBA,vba,TRUE
+VBA,frx,FALSE
+edn,edn,FALSE
+desktop,service,FALSE
+desktop,desktop,FALSE
+desktop,in,FALSE
+Svelte,svelte,TRUE
+Gnuplot,plt,FALSE
+Gnuplot,gnuplot,TRUE
+Gnuplot,gnu,TRUE
+Gnuplot,gp,FALSE
+Gnuplot,plot,FALSE
+Gnuplot,p,FALSE
+Gnuplot,,FALSE
+Protocol Buffer,proto,TRUE
+PLSQL,sql,TRUE
+PLSQL,pkb,TRUE
+PLSQL,tps,FALSE
+PLSQL,prc,TRUE
+PLSQL,pls,FALSE
+PLSQL,spc,TRUE
+PLSQL,trg,FALSE
+PLSQL,pks,TRUE
+PLSQL,pck,FALSE
+PLSQL,fnc,TRUE
+PLSQL,vw,FALSE
+PLSQL,bdy,TRUE
+PLSQL,plb,TRUE
+PLSQL,ddl,TRUE
+PLSQL,plsql,TRUE
+Nix,nix,TRUE
+M,m,TRUE
+PureBasic,pb,FALSE
+PureBasic,pbi,TRUE
+Forth,f,TRUE
+Forth,fs,TRUE
+Forth,fth,TRUE
+Forth,for,TRUE
+Forth,4th,TRUE
+Turtle,ttl,FALSE
+Raku,pl,TRUE
+Raku,t,TRUE
+Raku,pm,TRUE
+Raku,pm6,TRUE
+Raku,p6,TRUE
+Raku,raku,TRUE
+Raku,pl6,TRUE
+Raku,,TRUE
+Raku,rakumod,TRUE
+Raw token data,raw,FALSE
+Raw token data,jl,TRUE
+FreeMarker,ftl,TRUE
+FreeMarker,,TRUE
+Tcl,tcl,TRUE
+Tcl,,TRUE
+Tcl,tm,TRUE
+Tcl,adp,TRUE
+Tcl,test,TRUE
+mcfunction,mcfunction,TRUE
+JavaScript+ERB,erb,TRUE
+Racket,rkt,TRUE
+Racket,scrbl,TRUE
+Racket,rktd,FALSE
+Classic ASP,asp,TRUE
+Prolog,pl,TRUE
+Prolog,pro,TRUE
+Prolog,prolog,TRUE
+QMake,pro,TRUE
+QMake,pri,TRUE
+Gentoo Ebuild,ebuild,TRUE
+Gentoo Ebuild,0,TRUE
+PLpgSQL,sql,TRUE
+PLpgSQL,pgsql,TRUE
+QML,qml,TRUE
+QML,qbs,TRUE
+Solidity,sol,TRUE
+DIGITAL Command Language,com,FALSE
+SQF,sqf,TRUE
+Elm,elm,TRUE
+SystemVerilog,sv,TRUE
+SystemVerilog,svh,TRUE
+SystemVerilog,vh,TRUE
+Cuda,cu,TRUE
+Cuda,cuh,TRUE
+Procfile,,TRUE
+KiCad Layout,,FALSE
+Mathematica,nb,TRUE
+Mathematica,m,TRUE
+Mathematica,ma,TRUE
+Mathematica,mt,TRUE
+Mathematica,wl,TRUE
+Mathematica,cdf,FALSE
+RPM Spec,spec,TRUE
+XSLT,xsl,TRUE
+XSLT,xslt,TRUE
+XSLT,,TRUE
+Standard ML,sig,FALSE
+Standard ML,sml,TRUE
+Standard ML,ml,TRUE
+Standard ML,fun,TRUE
+GraphQL,graphql,TRUE
+GraphQL,gql,TRUE
+GraphQL,graphqls,TRUE
+Groovy Server Pages,gsp,TRUE
+Groovy Server Pages,,TRUE
+E-mail,eml,FALSE
+E-mail,mbox,FALSE
+E-mail,,FALSE
+E-mail,url,FALSE
+E-mail,txt,FALSE
+ApacheConf,htaccess,TRUE
+ApacheConf,conf,TRUE
+COLLADA,dae,FALSE
+Starlark,,TRUE
+Starlark,bazel,TRUE
+Starlark,star,TRUE
+Starlark,bzl,TRUE
+Objective-C++,mm,TRUE
+Scilab,sce,TRUE
+Scilab,tst,FALSE
+Scilab,sci,TRUE
+Liquid,liquid,TRUE
+PlantUML,puml,TRUE
+PlantUML,plantuml,TRUE
+PlantUML,iuml,TRUE
+IDL,pro,TRUE
+IDL,,TRUE
+Wavefront Material,mtl,FALSE
+Stata,do,TRUE
+Stata,ado,TRUE
+Stata,sthlp,FALSE
+Stata,mata,TRUE
+Stata,ihlp,FALSE
+STL,stl,TRUE
+fish,fish,TRUE
+fish,,TRUE
+fish,sh,TRUE
+LLVM,ll,TRUE
+LLVM,,TRUE
+HLSL,hlsl,TRUE
+HLSL,fx,TRUE
+HLSL,cginc,TRUE
+HLSL,hlsli,TRUE
+HLSL,fxh,TRUE
+xBase,prg,TRUE
+xBase,prw,TRUE
+xBase,ch,TRUE
+xBase,,TRUE
+Mustache,mustache,TRUE
+Mustache,tpl,TRUE
+Mustache,html,TRUE
+ColdFusion,cfm,TRUE
+Crystal,cr,TRUE
+Nunjucks,njk,FALSE
+Git Attributes,gitattributes,TRUE
+AppleScript,scpt,TRUE
+AppleScript,applescript,TRUE
+AppleScript,,TRUE
+1C Enterprise,bsl,TRUE
+1C Enterprise,os,TRUE
+Coq,v,TRUE
+YASnippet,,TRUE
+YASnippet,yasnippet,TRUE
+YASnippet,snippet,TRUE
+Ada,adb,TRUE
+Ada,ads,TRUE
+Ada,ada,TRUE
+X PixMap,xpm,FALSE
+X PixMap,pm,TRUE
+Web Ontology Language,owl,TRUE
+LilyPond,ly,TRUE
+LilyPond,ily,TRUE
+robots.txt,txt,TRUE
+SaltStack,sls,TRUE
+Ant Build System,xml,TRUE
+Nim,nim,TRUE
+Nim,nimble,TRUE
+Nim,cfg,TRUE
+Nim,nims,TRUE
+ReScript,res,FALSE
+UnrealScript,uc,TRUE
+RDoc,rdoc,TRUE
+RDoc,md,TRUE
+ShaderLab,shader,TRUE
+KiCad Schematic,sch,FALSE
+KiCad Schematic,,TRUE
+KiCad Schematic,bak,TRUE
+OpenSCAD,scad,TRUE
+HAProxy,cfg,TRUE
+RobotFramework,robot,TRUE
+Go Checksums,sum,FALSE
+AGS Script,asc,FALSE
+AGS Script,ash,FALSE
+SAS,sas,TRUE
+Pure Data,pd,TRUE
+Yacc,y,TRUE
+Yacc,yy,FALSE
+Yacc,yacc,TRUE
+AngelScript,as,FALSE
+AngelScript,angelscript,TRUE
+Gemfile.lock,lock,FALSE
+Tcsh,csh,TRUE
+Tcsh,,TRUE
+Tcsh,sh,TRUE
+Tcsh,tcsh,TRUE
+Tcsh,script,TRUE
+Tcsh,com,TRUE
+Vim Snippet,snippets,TRUE
+Vim Snippet,snippet,FALSE
+Vim Snippet,snip,TRUE
+HTTP,http,TRUE
+Nginx,conf,TRUE
+Nginx,nginx,TRUE
+Nginx,vhost,TRUE
+Textile,textile,TRUE
+Cabal Config,cabal,TRUE
+Cabal Config,project,FALSE
+AutoHotkey,ahk,TRUE
+GAP,g,FALSE
+GAP,gd,FALSE
+GAP,gi,TRUE
+GAP,gap,TRUE
+GAP,tst,TRUE
+SMT,smt2,TRUE
+SMT,smt,TRUE
+HTML+EEX,eex,TRUE
+HTML+EEX,leex,TRUE
+HTML+EEX,heex,TRUE
+BitBake,bb,TRUE
+Cython,pyx,TRUE
+Cython,pxd,TRUE
+Cython,pxi,TRUE
+PureScript,purs,TRUE
+Lex,l,TRUE
+Lex,lex,TRUE
+Lex,x,TRUE
+Max,maxpat,FALSE
+Max,pat,TRUE
+Max,maxhelp,TRUE
+Max,mxt,TRUE
+Max,maxproj,TRUE
+Reason,re,TRUE
+Reason,rei,TRUE
+G-code,gcode,FALSE
+G-code,g,TRUE
+G-code,cnc,TRUE
+G-code,gco,TRUE
+VBScript,vbs,TRUE
+NWScript,nss,TRUE
+FreeBasic,bas,TRUE
+FreeBasic,bi,TRUE
+FreeBasic,txt,TRUE
+ColdFusion CFC,cfc,TRUE
+Xtend,xtend,TRUE
+Modelica,mo,TRUE
+Eagle,brd,TRUE
+Eagle,sch,TRUE
+Eagle,,TRUE
+Papyrus,psc,TRUE
+ABAP,abap,TRUE
+nesC,nc,FALSE
+SWIG,i,FALSE
+JSONLD,jsonld,FALSE
+SuperCollider,scd,TRUE
+SuperCollider,sc,FALSE
+Rebol,r,TRUE
+Rebol,r2,TRUE
+Rebol,reb,TRUE
+Rebol,r3,TRUE
+Agda,agda,TRUE
+EditorConfig,editorconfig,TRUE
+XQuery,xq,TRUE
+XQuery,xqy,TRUE
+XQuery,xql,TRUE
+XQuery,xquery,TRUE
+XQuery,xqm,TRUE
+SourcePawn,sp,TRUE
+SourcePawn,inc,TRUE
+CSON,cson,TRUE
+SELinux Policy,te,FALSE
+SELinux Policy,,TRUE
+Linux Kernel Module,mod,FALSE
+Pawn,inc,TRUE
+Pawn,pwn,TRUE
+Pawn,sma,TRUE
+AL,al,TRUE
+Logos,x,TRUE
+Logos,xm,TRUE
+Logos,xi,TRUE
+AspectJ,aj,FALSE
+Awk,awk,TRUE
+Awk,,TRUE
+Awk,gawk,TRUE
+Awk,sh,TRUE
+Protocol Buffer Text Format,pbt,FALSE
+Protocol Buffer Text Format,pbtxt,TRUE
+Protocol Buffer Text Format,textproto,TRUE
+AutoIt,au3,TRUE
+Vim Help File,txt,TRUE
+Vim Help File,phx,TRUE
+Vim Help File,cnx,TRUE
+Vim Help File,jax,TRUE
+Vim Help File,twx,TRUE
+OpenCL,cl,TRUE
+OpenCL,opencl,TRUE
+LiveScript,ls,FALSE
+LiveScript,,TRUE
+Windows Registry Entries,reg,FALSE
+COBOL,cbl,TRUE
+COBOL,cpy,TRUE
+COBOL,cob,TRUE
+COBOL,ccp,TRUE
+COBOL,cobol,TRUE
+M4Sugar,ac,TRUE
+M4Sugar,m4,TRUE
+M4Sugar,in,TRUE
+Eiffel,e,TRUE
+Linker Script,ld,TRUE
+Linker Script,x,TRUE
+Linker Script,lds,TRUE
+BASIC,bas,TRUE
+LookML,lkml,TRUE
+LookML,lookml,TRUE
+Latte,latte,TRUE
+Cue Sheet,cue,FALSE
+DirectX 3D File,x,FALSE
+JetBrains MPS,mps,FALSE
+JetBrains MPS,mpl,TRUE
+JetBrains MPS,msd,TRUE
+RAML,raml,TRUE
+Volt,volt,TRUE
+Volt,php,TRUE
+Graph Modeling Language,gml,TRUE
+Ren'Py,rpy,TRUE
+SPARQL,rq,TRUE
+SPARQL,sparql,TRUE
+HiveQL,q,TRUE
+HiveQL,hql,TRUE
+AIDL,aidl,TRUE
+Lean,lean,TRUE
+Lean,hlean,TRUE
+Common Workflow Language,cwl,FALSE
+DM,dm,TRUE
+World of Warcraft Addon Data,toc,FALSE
+GN,gn,FALSE
+GN,gni,TRUE
+PostCSS,pcss,TRUE
+PostCSS,postcss,TRUE
+DTrace,d,FALSE
+kvlang,kv,TRUE
+Factor,factor,FALSE
+ZenScript,zs,TRUE
+MAXScript,ms,FALSE
+MAXScript,mcr,TRUE
+CODEOWNERS,,FALSE
+Alpine Abuild,,TRUE
+Gosu,gs,TRUE
+Gosu,gsx,TRUE
+Gosu,gst,TRUE
+Portugol,por,TRUE
+PowerBuilder,srw,TRUE
+PowerBuilder,sru,TRUE
+PowerBuilder,pbt,TRUE
+PowerBuilder,sra,TRUE
+ANTLR,g4,TRUE
+Mako,mako,TRUE
+Mako,mao,TRUE
+POV-Ray SDL,inc,FALSE
+POV-Ray SDL,pov,TRUE
+X BitMap,xbm,FALSE
+Glyph Bitmap Distribution Format,bdf,FALSE
+ObjectScript,cls,TRUE
+CWeb,w,TRUE
+CWeb,h,TRUE
+Dhall,dhall,TRUE
+Dhall,,TRUE
+Idris,idr,TRUE
+Idris,lidr,TRUE
+NewLisp,lisp,TRUE
+NewLisp,nl,TRUE
+NewLisp,lsp,TRUE
+Meson,build,TRUE
+Meson,txt,TRUE
+Slash,sl,FALSE
+Slash,,TRUE
+Ballerina,bal,TRUE
+Turing,t,TRUE
+Turing,tu,TRUE
+LabVIEW,lvclass,TRUE
+LabVIEW,lvproj,TRUE
+LabVIEW,lvlib,TRUE
+Zig,zig,TRUE
+sed,sed,TRUE
+sed,,TRUE
+M4,m4,TRUE
+M4,mc,TRUE
+Objective-J,j,TRUE
+Objective-J,sj,TRUE
+Objective-J,js,TRUE
+Pod,pod,TRUE
+Csound Document,csd,TRUE
+CodeQL,ql,TRUE
+CodeQL,qll,TRUE
+F*,fst,TRUE
+F*,fsti,TRUE
+q,q,TRUE
+q,txt,TRUE
+4D,4dm,TRUE
+GSC,gsc,TRUE
+GSC,csc,TRUE
+GSC,gsh,TRUE
+ASL,dsl,TRUE
+ASL,asl,TRUE
+Kit,kit,TRUE
+Kit,html,TRUE
+Jasmin,j,TRUE
+Proguard,pro,TRUE
+Literate Haskell,lhs,TRUE
+RPGLE,rpgle,TRUE
+RPGLE,sqlrpgle,TRUE
+Adobe Font Metrics,afm,TRUE
+YANG,yang,TRUE
+Stan,stan,TRUE
+NEON,neon,TRUE
+wdl,wdl,TRUE
+NCL,ncl,TRUE
+V,v,TRUE
+V,,TRUE
+CLIPS,clp,TRUE
+Isabelle,thy,TRUE
+Euphoria,e,TRUE
+Euphoria,ex,TRUE
+Thrift,thrift,TRUE
+Squirrel,nut,TRUE
+OpenQASM,qasm,TRUE
+HXML,hxml,TRUE
+Io,io,TRUE
+Vala,vala,TRUE
+Vala,vapi,TRUE
+Vala,cs,TRUE
+OpenStep Property List,plist,TRUE
+OpenStep Property List,glyphs,TRUE
+Velocity Template Language,vtl,TRUE
+Nextflow,nf,TRUE
+Nextflow,config,TRUE
+PigLatin,pig,TRUE
+Jsonnet,jsonnet,TRUE
+Jsonnet,libsonnet,TRUE
+Clarion,clw,TRUE
+NPM Config,npmrc,TRUE
+Astro,astro,TRUE
+MoonScript,moon,TRUE
+Limbo,b,TRUE
+Limbo,m,TRUE
+Cool,cl,TRUE
+Fantom,fan,TRUE
+Lasso,las,TRUE
+Lasso,lasso,TRUE
+Clean,dcl,TRUE
+Clean,icl,TRUE
+Clean,,TRUE
+ChucK,ck,FALSE
+Redirect Rules,,TRUE
+Pan,pan,TRUE
+DNS Zone,zone,TRUE
+DNS Zone,arpa,TRUE
+Arc,arc,TRUE
+MLIR,mlir,TRUE
+WebAssembly,wat,TRUE
+WebAssembly,wast,TRUE
+Mercury,m,TRUE
+YARA,yar,TRUE
+YARA,yara,TRUE
+Inno Setup,iss,TRUE
+Inno Setup,isl,TRUE
+MQL4,mq4,TRUE
+MQL4,mqh,TRUE
+OpenType Feature File,fea,TRUE
+Promela,pml,TRUE
+Marko,marko,TRUE
+Wollok,wlk,TRUE
+MQL5,mqh,TRUE
+MQL5,mq5,TRUE
+Sage,sage,TRUE
+Sage,sagews,TRUE
+Modula-2,mod,TRUE
+Modula-2,,TRUE
+API Blueprint,apib,TRUE
+Easybuild,eb,TRUE
+Texinfo,texi,TRUE
+Texinfo,m,TRUE
+Texinfo,txi,TRUE
+Texinfo,texinfo,TRUE
+Texinfo,tex,TRUE
+Parrot Internal Representation,pir,TRUE
+Parrot Internal Representation,muscle,TRUE
+Parrot Internal Representation,t,TRUE
+Parrot Internal Representation,interfastatodos,TRUE
+Ceylon,ceylon,TRUE
+Red,red,TRUE
+Red,reds,TRUE
+Rascal,rsc,TRUE
+Brainfuck,b,TRUE
+Brainfuck,bf,TRUE
+Futhark,fut,TRUE
+NSIS,nsi,TRUE
+NSIS,nsh,TRUE
+Ninja,ninja,TRUE
+Monkey C,mc,TRUE
+Open Policy Agent,rego,TRUE
+JSON5,json5,TRUE
+Modula-3,i3,TRUE
+Modula-3,m3,TRUE
+Modula-3,mg,TRUE
+Modula-3,ig,TRUE
+Modula-3,,TRUE
+Prisma,prisma,TRUE
+Literate CoffeeScript,md,TRUE
+Literate CoffeeScript,litcoffee,TRUE
+Faust,dsp,TRUE
+BlitzMax,bmx,TRUE
+Debian Package Control File,dsc,TRUE
+ImageJ Macro,ijm,TRUE
+Readline Config,inputrc,TRUE
+Readline Config,,TRUE
+Bicep,bicep,FALSE
+Boo,boo,TRUE
+GAMS,gms,TRUE
+Csound Score,sco,TRUE
+JFlex,flex,TRUE
+JFlex,jflex,TRUE
+Genero,4gl,TRUE
+Microsoft Developer Studio Project,dsp,TRUE
+Genero Forms,per,TRUE
+J,ijs,TRUE
+Xojo,,TRUE
+CUE,cue,TRUE
+GDB,gdbinit,TRUE
+GDB,gdb,TRUE
+GDB,,TRUE
+Alloy,als,TRUE
+Bluespec,bsv,TRUE
+Bluespec,,TRUE
+BlitzBasic,bb,TRUE
+BlitzBasic,decls,TRUE
+Fennel,fnl,TRUE
+Metal,metal,TRUE
+P4,p4,TRUE
+TLA,tla,TRUE
+Ring,ring,TRUE
+STAR,star,TRUE
+Monkey,monkey,TRUE
+Monkey,monkey2,TRUE
+Monkey,wx,TRUE
+Monkey,cxs,TRUE
+Boogie,bpl,FALSE
+RPC,x,TRUE
+NASL,inc,FALSE
+NASL,nasl,TRUE
+Macaulay2,m2,TRUE
+Macaulay2,txt,TRUE
+Pony,pony,TRUE
+Pony,header,TRUE
+Pony,,TRUE
+Oz,oz,TRUE
+LTspice Symbol,asy,TRUE
+LTspice Symbol,txt,TRUE
+Singularity,,TRUE
+Browserslist,browserslistrc,TRUE
+Browserslist,,TRUE
+ATS,dats,TRUE
+ATS,sats,TRUE
+ATS,hats,TRUE
+Genshi,kid,TRUE
+Berry,be,TRUE
+APL,apl,TRUE
+APL,dyalog,TRUE
+Dafny,dfy,TRUE
+SSH Config,,TRUE
+Terra,t,TRUE
+Terra,,TRUE
+Nemerle,n,TRUE
+LSL,lsl,TRUE
+LSL,lslp,TRUE
+ASN.1,asn,TRUE
+ASN.1,asn1,TRUE
+Asymptote,asy,TRUE
+Witcher Script,ws,TRUE
+Witcher Script,,TRUE
+Zephir,zep,TRUE
+Uno,uno,TRUE
+2-Dimensional Array,2da,TRUE
+RenderScript,rs,TRUE
+RenderScript,rsh,TRUE
+RenderScript,go,TRUE
+E,e,TRUE
+E,js,TRUE
+E,emaker,TRUE
+E,map,TRUE
+E,,TRUE
+E,updoc,TRUE
+ECL,ecl,TRUE
+EmberScript,em,TRUE
+Closure Templates,soy,TRUE
+Brightscript,brs,TRUE
+REXX,rexx,TRUE
+REXX,rex,TRUE
+REXX,,TRUE
+Frege,fr,TRUE
+Csound,orc,TRUE
+Csound,udo,TRUE
+FLUX,fx,TRUE
+FLUX,flux,TRUE
+SugarSS,sss,TRUE
+Zeek,bro,TRUE
+Zeek,zeek,TRUE
+Inform 7,i7x,TRUE
+Inform 7,ni,TRUE
+Type Language,tl,TRUE
+XS,xs,TRUE
+Filebench WML,f,TRUE
+CAP CDS,cds,TRUE
+CAP CDS,predex,TRUE
+DataWeave,dwl,TRUE
+MiniYAML,yaml,TRUE
+OpenRC runscript,initd,TRUE
+OpenRC runscript,,TRUE
+OpenRC runscript,init,TRUE
+OpenRC runscript,openrc,TRUE
+OpenRC runscript,in,TRUE
+OpenRC runscript,d,TRUE
+OpenRC runscript,rc,TRUE
+OpenRC runscript,sh,TRUE
+OpenRC runscript,rc6,TRUE
+Q#,qs,TRUE
+Propeller Spin,spin,TRUE
+Spline Font Database,sfd,TRUE
+Soong,bp,TRUE
+Dylan,dylan,TRUE
+Dylan,lid,TRUE
+Dylan,dyl,TRUE
+Dylan,intr,TRUE
+XC,xc,TRUE
+CartoCSS,mss,TRUE
+Bikeshed,bs,TRUE
+Cadence,cdc,TRUE
+jq,jq,TRUE
+jq,test,TRUE
+ObjDump,objdump,TRUE
+Move,move,TRUE
+Nearley,ne,TRUE
+X10,x10,TRUE
+Grammatical Framework,gf,TRUE
+Altium Designer,outjob,TRUE
+Altium Designer,prjpcb,TRUE
+Altium Designer,schdoc,TRUE
+Altium Designer,pcbdoc,TRUE
+ooc,ooc,TRUE
+IGOR Pro,ipf,TRUE
+Wren,wren,TRUE
+SRecode Template,srt,TRUE
+eC,ec,TRUE
+eC,eh,TRUE
+eC,lower,TRUE
+Motoko,mo,TRUE
+NetLogo,nlogo,TRUE
+EQ,eq,TRUE
+EQ,,TRUE
+Harbour,hb,TRUE
+VCL,vcl,TRUE
+VCL,vtc,TRUE
+Whiley,whiley,TRUE
+PEG.js,pegjs,TRUE
+STON,ston,TRUE
+Hy,hy,TRUE
+Hy,hx,TRUE
+Beef,bf,TRUE
+StringTemplate,st,TRUE
+LOLCODE,lol,TRUE
+LOLCODE,hpp,TRUE
+LOLCODE,h,TRUE
+LOLCODE,cpp,TRUE
+LOLCODE,cs,TRUE
+LOLCODE,md,TRUE
+LOLCODE,vcxproj,TRUE
+LOLCODE,inc,TRUE
+hoon,hoon,TRUE
+Ragel,rl,TRUE
+IRC log,weechatlog,TRUE
+XProc,xpl,TRUE
+XProc,xproc,TRUE
+Pic,pic,TRUE
+Pic,chem,TRUE
+Pic,inc,TRUE
+Pic,asm,TRUE
+Odin,odin,TRUE
+mupad,mu,TRUE
+Jolie,ol,TRUE
+Jolie,iol,TRUE
+ABAP CDS,asddls,TRUE
+Nu,nu,TRUE
+REALbasic,rbbas,TRUE
+REALbasic,rbfrm,TRUE
+Nu,c,TRUE
+Nu,,TRUE
+REALbasic,rbmnu,TRUE
+REALbasic,rbtbar,TRUE
+REALbasic,,TRUE
+Pike,pike,TRUE
+Pike,pmod,TRUE
+Pike,,TRUE
+Pike,code,TRUE
+CIL,cil,TRUE
+CIL,c,TRUE
+KakouneScript,kak,TRUE
+KakouneScript,,TRUE
+nanorc,nanorc,TRUE
+nanorc,,TRUE
+GEDCOM,ged,TRUE
+Literate Agda,lagda,TRUE
+Cloud Firestore Security Rules,rules,TRUE
+Kusto,kql,TRUE
+Kusto,csl,TRUE
+C2hs Haskell,chs,TRUE
+Slice,ice,TRUE
+Slice,,TRUE
+Component Pascal,cps,TRUE
+Component Pascal,cp,TRUE
+Component Pascal,txt,TRUE
+Component Pascal,mve,TRUE
+Chapel,chpl,TRUE
+KiCad Legacy Layout,brd,TRUE
+SmPL,cocci,FALSE
+MTML,mtml,TRUE
+Curry,curry,TRUE
+Curry,decaf,TRUE
+Logtalk,lgt,TRUE
+Logtalk,logtalk,TRUE
+Qt Script,qs,TRUE
+Qt Script,,TRUE
+Jison,jison,TRUE
+RouterOS Script,rsc,TRUE
+HolyC,hc,TRUE
+EBNF,ebnf,TRUE
+Apollo Guidance Computer,agc,TRUE
+Tea,tea,TRUE
+SQLPL,sql,TRUE
+SQLPL,db2,TRUE
+WebIDL,webidl,TRUE
+WebIDL,widl,TRUE
+WebIDL,idl,TRUE
+LFE,lfe,TRUE
+HTML+ECR,ecr,TRUE
+KRL,krl,TRUE
+BrighterScript,bs,TRUE
+BrighterScript,bootstraps,TRUE
+Edje Data Collection,edc,TRUE
+Creole,creole,TRUE
+GAML,gaml,TRUE
+Cap'n Proto,capnp,TRUE
+Zimpl,zpl,TRUE
+NetLinx,axs,TRUE
+NetLinx,axi,TRUE
+Avro IDL,avdl,TRUE
+Kaitai Struct,ksy,TRUE
+Janet,janet,TRUE
+Janet,,TRUE
+UrWeb,ur,TRUE
+UrWeb,urs,TRUE
+Talon,talon,TRUE
+PicoLisp,l,TRUE
+PicoLisp,,TRUE
+MUF,m,TRUE
+MUF,muf,TRUE
+HyPhy,bf,TRUE
+Gemini,gmi,TRUE
+ZIL,zil,TRUE
+ZIL,mud,TRUE
+DenizenScript,dsc,TRUE
+Gleam,gleam,TRUE
+Valve Data Format,vdf,TRUE
+ECLiPSe,ecl,TRUE
+Pod 6,pod6,TRUE
+Pod 6,rakudoc,TRUE
+Pod 6,pod,TRUE
+Pod 6,,TRUE
+Regular Expression,regex,TRUE
+Regular Expression,regexp,TRUE
+JSONiq,jq,TRUE
+Muse,muse,TRUE
+Muse,,TRUE
+Antlers,html,TRUE
+Riot,riot,TRUE
+Fancy,fy,TRUE
+Fancy,,TRUE
+Fancy,fancypack,TRUE
+Mint,mint,TRUE
+XPages,metadata,TRUE
+XPages,,TRUE
+Cycript,cy,TRUE
+Pep8,pep,TRUE
+Git Revision List,,TRUE
+Elvish,elv,TRUE
+Elvish,,TRUE
+Xonsh,xsh,TRUE
+Click,click,TRUE
+Nasal,nas,TRUE
+Grace,grace,TRUE
+Rouge,rg,TRUE
+Rouge,lg,TRUE
+NL,nl,TRUE
+Module Management System,mms,TRUE
+Module Management System,mmk,TRUE
+Formatted,for,TRUE
+Formatted,fs,TRUE
+Gentoo Eclass,eclass,TRUE
+Vyper,vy,TRUE
+Win32 Message File,mc,TRUE
+Cirru,cirru,TRUE
+Unified Parallel C,upc,TRUE
+Parrot Assembly,pasm,TRUE
+Lark,lark,TRUE
+Golo,golo,TRUE
+Self,self,TRUE
+dircolors,,TRUE
+dircolors,dircolors,TRUE
+X Font Directory Index,dir,TRUE
+X Font Directory Index,scale,TRUE
+X Font Directory Index,alias,TRUE
+Moocode,moo,TRUE
+Moocode,boo,TRUE
+FIGlet Font,flf,TRUE
+Redcode,cw,TRUE
+ZAP,zap,TRUE
+ZAP,xzap,TRUE
+Befunge,bf,TRUE
+Befunge,befunge,TRUE
+Quake,,TRUE
+Quake,cfg,TRUE
+Mirah,mirah,TRUE
+Mirah,duby,TRUE
+Ox,ox,TRUE
+Ox,oxh,TRUE
+Ox,,TRUE
+Ox,oxo,TRUE
+Nit,nit,TRUE
+TextMate Properties,,TRUE
+PogoScript,pogo,TRUE
+HOCON,hocon,TRUE
+HOCON,conf,TRUE
+Yul,yul,TRUE
+LigoLANG,ligo,TRUE
+Filterscript,fs,TRUE
+LoomScript,ls,TRUE
+LoomScript,as,TRUE
+ABNF,abnf,TRUE
+Opa,opa,TRUE
+Ioke,ik,TRUE
+Ioke,,TRUE
+Augeas,aug,TRUE
+Mask,mask,TRUE
+Scaml,scaml,TRUE
+CameLIGO,mligo,TRUE
+Dogescript,djs,TRUE
+GCC Machine Description,md,TRUE
+Shen,shen,TRUE
+Isabelle ROOT,,TRUE
+Cairo,cairo,TRUE
+RUNOFF,rno,TRUE
+RUNOFF,rnh,TRUE
+XCompose,xcompose,TRUE
+XCompose,,TRUE
+cURL Config,curlrc,TRUE
+cURL Config,,TRUE
+Clarity,clar,TRUE
+TXL,txl,TRUE
+wisp,wisp,TRUE
+wisp,w,FALSE
+Wget Config,wgetrc,TRUE
+Wget Config,,TRUE
+Glyph,glf,TRUE
+Charity,ch,TRUE
+Charity,txt,TRUE
+Charity,xml,TRUE
+Genie,gs,TRUE
+Sieve,sieve,TRUE
+Sieve,,TRUE
+Bison,bison,FALSE
+Bison,y,TRUE
+Bison,ll,TRUE
+ShellCheck Config,shellcheckrc,TRUE
+ReasonLIGO,religo,TRUE
+Earthly,,TRUE
+Jison Lex,jisonlex,TRUE
+Jison Lex,l,TRUE
+Opal,opal,TRUE
+TI Program,8xp,TRUE
+TI Program,txt,TRUE
+TI Program,8xk,TRUE
+Darcs Patch,dpatch,TRUE
+Darcs Patch,raw,TRUE
+ShellSession,,TRUE
+ShellSession,sco,TRUE
+Oxygene,oxygene,TRUE
+Parrot,parrot,TRUE
+Parrot,txt,TRUE
+Parrot,list,TRUE
+Myghty,myt,TRUE
+Object Data Instance Notation,odin,TRUE
+Ecere Projects,epj,TRUE
+NumPy,numpy,TRUE
+NumPy,,TRUE
+Omgrofl,omgrofl,TRUE
+Python traceback,pytb,TRUE
+Python traceback,py2tb,TRUE
+NetLinx+ERB,erb,TRUE
+MiniD,minid,TRUE
+MiniD,j3md,TRUE
+Record Jar,txt,TRUE
+C-ObjDump,,TRUE
