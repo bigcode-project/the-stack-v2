@@ -1,0 +1,4 @@
+scancode-toolkit==32.0.8
+pypeln
+cchardet
+tqdm
