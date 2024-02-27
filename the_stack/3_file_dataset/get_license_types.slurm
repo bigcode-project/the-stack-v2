@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=hopper-prod
-#SBATCH --job-name=stackv2_file_paths
+#SBATCH --job-name=stackv2_get_license_types
 #SBATCH --nodes 16
 #SBATCH --ntasks-per-node 1
 #SBATCH --cpus-per-task=32
@@ -17,6 +17,6 @@ source ../../spark/spark_env.sh
 
 spark-start
 
-spark-submit --properties-file "$SPARK_DEFAULTS" find_file_paths.py
+spark-submit --properties-file "$SPARK_DEFAULTS" get_license_types.py
 
 spark-stop

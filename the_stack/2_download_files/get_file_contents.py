@@ -10,8 +10,9 @@ import cchardet
 import enry
 import pypeln as pl
 
-from licensedcode.cache import get_licensing
+from licensedcode.cache import get_licensing, get_licenses_db
 from licensedcode.detection import detect_licenses
+
 from tqdm.auto import tqdm
 
 # License file regexes taken from
@@ -42,6 +43,8 @@ license_file_names = [
 license_file_re = re.compile(
     rf"^(|.*[-_. ])({'|'.join(license_file_names)})(|[-_. ].*)$", re.IGNORECASE
 )
+
+license_db = get_licenses_db()
 
 
 def on_start():
@@ -134,7 +137,7 @@ def get_lang_license(record) -> str:
             licensing = get_licensing()
             symbols = licensing.license_symbols(lic.license_expression)
             for sym in symbols:
-                detected_licenses.add(sym.key)
+                detected_licenses.add(license_db[sym.key].spdx_license_key)
         record["licenses"] = list(detected_licenses)
 
     if len(record["licenses"]) == 0 and record["language"] is None:
@@ -169,8 +172,8 @@ if __name__ == "__main__":
     blob_prefix = f"{args.blob_prefix:0{2}x}"  # int to hex
 
     s3 = boto3.client("s3")
-    input_bucket = args.input_files.split("/")[2]
-    input_prefix = "/".join(args.input_files.split("/")[3:])
+    input_bucket = args.input_path.split("/")[2]
+    input_prefix = "/".join(args.input_path.split("/")[3:])
     files = list_files(
         s3,
         input_bucket,
