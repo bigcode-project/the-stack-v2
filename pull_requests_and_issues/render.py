@@ -747,8 +747,8 @@ def render_pr(row, df_commit_pairs, render_params, return_render, language_black
                     res += c_rendering
                     res += render_pr_review_event(event, base_info, render_params, len(res))
             elif (
-                event['type'] == 'issue' or
-                event['type'] == 'comment'
+                event['type'] == 'IssueEvent' or
+                event['type'] == 'IssueCommentEvent'
             ):
                 # does not have head and base info so no diff render
                 res += render_issue(event, render_params, len(res))
@@ -790,7 +790,10 @@ def get_renders_for_bucket(
         # if source is not path seed per bucket must be provided
         
     else:
-        df = pd.read_parquet(source)
+        try:
+            df = pd.read_parquet(source)
+        except (pa.lib.ArrowNotImplementedError, pa.lib.ArrowInvalid):
+            return source
 
     assert not seed is None
     seed += base_seed
