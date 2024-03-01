@@ -71,13 +71,12 @@ def combine_bucket(path):
     dst_filename = path.parent / f'{path.name.split("_")[1]}.parquet'
     dst_filename_tmp = Path(str(dst_filename) + '.__tmp__')
 
-    #src = polars.scan_parquet(path / '*.parquet')
-    #src.sink_parquet(dst_filename_tmp, compression='snappy')
-
-    #sometimes this crashes for some reason
-    df = dd.read_parquet(str(path / 'part_*.parquet')).compute()
-    #print(dst_filename_tmp)
-    #print(dst_filename)
+    files = list(path.glob('*.parquet'))
+    data = []
+    for f in files:
+        data.append(pd.read_parquet(f))
+    df = pd.concat(data)
+    
     df = df.reset_index(drop=True)
     # seems dask adds __index_level_0__ so remove column with the same name 
     # before saving

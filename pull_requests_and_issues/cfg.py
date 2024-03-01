@@ -30,6 +30,6 @@ commit_paris_files_s3 = {
     'ext': 'parquet'
 }
 pr_commit_pairs_files_path = root_path / 'pr_commit_pairs_files'
-pr_commid_pairs_files_filtered_path = root_path / 'pr_commid_pairs_files_filtered'
-pr_commid_pairs_files_filtered_cleaned_path = root_path / 'pr_commid_pairs_files_filtered_cleaned'
-pr_commid_pairs_files_filtered_cleaned_grouped_path = root_path / 'pr_commid_pairs_files_filtered_cleaned_grouped'
+pr_commid_pairs_files_filtered_path = root_path / 'pr_commit_pairs_files_filtered'
+pr_commid_pairs_files_filtered_cleaned_path = root_path / 'pr_commit_pairs_files_filtered_cleaned'
+pr_commid_pairs_files_filtered_cleaned_grouped_path = root_path / 'pr_commit_pairs_files_filtered_cleaned_grouped'

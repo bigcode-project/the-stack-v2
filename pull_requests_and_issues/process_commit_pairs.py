@@ -5,6 +5,10 @@ import util
 import ray
 from functools import partial
 import numpy as np
+import sqlite3
+from collections import defaultdict
+
+from render import get_line_diff_range
 
 def add_license_to_pr_remove_non_permissive(dfis, repo_licenses_sqlite_file):
     
