@@ -41,7 +41,7 @@ python retrieve_metadata.py
 ```
 
 ## Add Kaggle datasets information
-In teh metadata we retrived, we can sometimes find the description of the datasets used in the notebooks. In this section we want to add more information on these datasets such as the column names, some examples and `df.info()` to get more context on what's happening in the notebook. To do that we download the datasets used in the notebooks using Kaggle API.
+In the metadata we retrieved, we can sometimes find the description of the datasets used in the notebooks. In this section we want to add more information on these datasets such as the column names, some examples and `df.info()` to get more context on what's happening in the notebook. To do that we download the datasets used in the notebooks using Kaggle API.
 
 Login to Kaggle with your API Key (see [documentation](https://www.kaggle.com/docs/api)) and run:
 ```bash
